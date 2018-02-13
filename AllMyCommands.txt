@@ -1,7 +1,6 @@
-$ cd C:Users/David/Downloads/GUC/"Semester 6"/"Software Engineering"/Project
+$ cd C:Users/David/Downloads/GUC/"Semester 6"/"Software Engineering"/Project/Individual
 
 $ git init
-Initialized empty Git repository in C:/Users/David/Downloads/GUC/Semester 6/Software Engineering/Project/.git/
 
 $ git add "File 1.txt"
 
@@ -13,7 +12,7 @@ $ rm "File 2.txt"
 
 $ git checkout "File 2.txt"
 
-$ git commit -m "Commiting after doing the required changes"
+$ git commit -m "Adding the required files"
 
 $ git config --global user.email "david.mina96@hotmail.com"
 
@@ -29,6 +28,8 @@ $ git add README.md
 
 $ git commit -m "Adding README file to ReadMe branch"
 
+$ git push -u origin ReadMe
+
 $ git checkout master
 
 $ git merge ReadMe
@@ -37,4 +38,5 @@ $ git add AllMyCommands.txt
 
 $ git commit -m "Adding the file that contains all the commands used"
 
+$ git push -u origin master
 
